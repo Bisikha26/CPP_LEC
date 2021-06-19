@@ -38,6 +38,7 @@ int main() {
     cout << "Area of Wall 1: " << wall1.calculateArea() << endl;
 
     // copy contents of wall1 to another object wall2
+    // here wall1 is object of student wall class whose value is being copied to another object of class i.e wall2 
     Wall wall2 = wall1;
 
     // print area of wall2

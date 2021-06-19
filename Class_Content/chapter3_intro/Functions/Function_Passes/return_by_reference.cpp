@@ -47,3 +47,4 @@ int main()
          << &a << endl;
     return 0;
 }
+

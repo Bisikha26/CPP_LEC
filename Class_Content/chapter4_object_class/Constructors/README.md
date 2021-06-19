@@ -62,3 +62,5 @@ The copy constructor in C++ is used to copy data of one object to another.
 
 ### The parameter of copy constructor has the address of an object of the class.We then assign the values of the variables of the first object to the corresponding variables of the second object. This is how the contents of the object are copied.
 
+**Note** Class ma dui ota object chha ray, as in obj1 and obj2. obj1 sanga certain value chha ray but obj2 is empty. obj2 needs the value of obj1 then we use copy contructor to copy the value of one object to another
+

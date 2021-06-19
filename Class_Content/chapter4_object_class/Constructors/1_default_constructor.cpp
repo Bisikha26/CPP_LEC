@@ -20,7 +20,7 @@ int main()
 {
     // Default constructor called automatically
     // when the object is created
-    construct c;
+    construct c; //c.construct()
     cout << "a: " << c.a << endl
          << "b: " << c.b;
     return 1;
