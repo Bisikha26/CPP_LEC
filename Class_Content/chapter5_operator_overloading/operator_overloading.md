@@ -34,4 +34,11 @@ class className {
 - **operator** is a keyword.
 - **symbol** is the operator we want to overload. Like: +, <, -, ++, etc.
 - **arguments** is the arguments passed to the function.
+
+## In binary_op2 example :
+
+### d3 = d1 + d2; here, d1 calls the operator function of its class object and takes d2 as a parameter, by which operator function return object and the result will reflect in the d3 object.
+ ---
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/operator.png)
     
