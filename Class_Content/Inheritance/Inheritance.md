@@ -23,7 +23,7 @@
 
 ## **Syntax of Derived Class**
 ```
-class derived_class_name :: visibility-mode base_class_name  
+class derived_class_name : visibility-mode base_class_name  
 {  
     // body of the derived class.  
 }  
@@ -48,4 +48,34 @@ class derived_class_name :: visibility-mode base_class_name
 ```
 ---
 ## **Note** The private members of the base class are never inherited.
+
+---
+
+## **Types of Inheritance**
+
+**C++ supports five types of inheritance:**
+1. **Single inheritance** - Inheritance in which a derived class is inherited from the only one base class.
+---
+![](https://static.javatpoint.com/cpp/images/cpp-inheritance2.png)
+
+---
+
+2. **Multiple inheritance** -  process of deriving a new class that inherits the attributes from two or more classes.
+
+---
+![](https://static.javatpoint.com/cpp/images/cpp-inheritance5.png)
+---
+
+3. **Hierarchical inheritance** - Hierarchical inheritance is defined as the process of deriving more than one class from a base class
+---
+![](https://static.javatpoint.com/cpp/images/cpp-inheritance7.png)
+---
+4. **Multilevel inheritance** - process of deriving a class from another derived class.
+---
+![](https://static.javatpoint.com/cpp/images/cpp-inheritance4.png)
+---
+5. **Hybrid inheritance** - Hybrid inheritance is a combination of more than one type of inheritance.
+---
+![](https://static.javatpoint.com/cpp/images/cpp-inheritance6.png)
+
 
