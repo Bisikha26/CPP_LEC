@@ -78,4 +78,12 @@ class derived_class_name : visibility-mode base_class_name
 ---
 ![](https://static.javatpoint.com/cpp/images/cpp-inheritance6.png)
 
+---
+---
+
+## Order of Constructor and Destructor Invocation
+---
+![](https://media.geeksforgeeks.org/wp-content/uploads/order-of-constructor.png)
+
+
 
