@@ -27,3 +27,5 @@ int main() {
     cout<<"Absolute value of -10.10 is: "<<absolute(-10.10f)<<endl;
     return 0;
 }
+
+

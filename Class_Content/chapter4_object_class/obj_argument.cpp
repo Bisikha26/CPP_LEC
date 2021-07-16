@@ -1,28 +1,29 @@
-// Pass object to function
+// Pass object as a function argument
+
 #include<iostream>
 using namespace std;
 
 class Student {
     public:
-    double marks;
-
+        double marks;
+    
     // constructor to initialize marks
     Student(double m) {
         marks = m;
     }
 };
 
-// function that has objects as parameters
+// we are making a function, which takes object as an argument
+// class -> 2student, student haru ko average marks calculate
 void calculateAverage(Student s1, Student s2) {
     double average = (s1.marks + s2.marks) / 2;
-
-    cout<<"Average Marks: "<<average<<endl;
-}
+    cout<<"The average marks of two students is"<<average<<endl;
+ }
 
 int main() {
-    Student student1(88.0), student2(56.0);
+    Student student1(100.0), student2(200.5);
 
-    // pass the object as arguments
+    // To pass the object as an argument
     calculateAverage(student1, student2);
     return 0;
 }

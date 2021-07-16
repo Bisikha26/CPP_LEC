@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
-
+// user defined data type
 class Student {
     public:
     double marks1, marks2;
 };
 
 // function that returns object of Student
+//Since class is a user defined data type, to return the object created inside function, we can use class name as return type
+// https://www.quora.com/Can-a-class-be-a-return-type-in-C++ [refer this link]
 Student createStudent() {
     Student student;
 
@@ -29,3 +31,8 @@ int main() {
     student1 = createStudent();
     return 0;
 }
+
+
+
+
+

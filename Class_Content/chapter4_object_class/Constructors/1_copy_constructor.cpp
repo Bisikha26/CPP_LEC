@@ -4,6 +4,7 @@
 using namespace std;
 
 // declare a class
+
 class Wall {
    private:
     double length;
@@ -19,6 +20,7 @@ class Wall {
     }
 
     // copy constructor with a Wall object as parameter
+    //syntax to create copy constructor - classname(classname &objectname)
     Wall(Wall &obj) {
         // initialize private variables
         length = obj.length;
@@ -39,10 +41,13 @@ int main() {
 
     // copy contents of wall1 to another object wall2
     // here wall1 is object of student wall class whose value is being copied to another object of class i.e wall2 
-    Wall wall2 = wall1;
+    Wall wall2 = wall1; //wall1 lai as an object parameter pass gara
 
     // print area of wall2
     cout << "Area of Wall 2: " << wall2.calculateArea() << endl;
 
     return 0;
 }
+
+
+
