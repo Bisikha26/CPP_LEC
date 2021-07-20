@@ -5,7 +5,7 @@ class Base {
     int x;
 
     public:
-        virtual void fun() = 0;
+        virtual void fun() = 0; //pure virtual function
         int getX() {
             return x;
         }

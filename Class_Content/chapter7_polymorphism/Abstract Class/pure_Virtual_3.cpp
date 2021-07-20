@@ -8,6 +8,9 @@ class Base
 {
 public:
     virtual void show() = 0;
+    void disp() {
+        cout<<"Function inside an abstract class";
+    }
 };
  
 class Derived: public Base
@@ -19,6 +22,7 @@ public:
 int main(void)
 {
     Base *bp;
+    bp -> disp();
     Derived d;
     bp = &d;
     bp->show();

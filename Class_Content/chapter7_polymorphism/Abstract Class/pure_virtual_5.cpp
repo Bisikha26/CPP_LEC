@@ -29,9 +29,9 @@ class Derived: public Base
         }
 };
  
-int main(void)
+int main()
 {
-    Derived d;
+    Derived d; //derived class ko object banaune bitikai parent class ko constructor banchha
     // d.fun();
    
   //object creation using pointer of base class
