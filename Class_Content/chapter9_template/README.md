@@ -6,7 +6,7 @@
 
 ## The concept of templates can be used in two different ways:
 
-## 1. Function Template
+## 1. Function Template (function with generic type)
 ### A single function template can work with different data types at once but, a single normal function can only work with one set of data types.
 
 ``` 
