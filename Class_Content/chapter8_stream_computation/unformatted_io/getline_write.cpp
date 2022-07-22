@@ -18,13 +18,13 @@ int main() {
     char line[100];
 
     // get the input
-    cin.getline(line, 10);
+    cin.getline(line, 50);
 
     // print the data
-    cout.write(line, 5);
-    cout<<endl;
+    // cout.write(line, 5);
+    // cout<<endl;
 
-    cout.write(line, 20);
+    cout.write(line, 50);
     cout<<endl;
 
     return 0;

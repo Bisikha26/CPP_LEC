@@ -15,7 +15,7 @@ int main () {
 
    // open a file in write mode.
    ofstream outfile;
-   outfile.open("afile.dat");
+   outfile.open("createfile.txt");
 
    cout << "Writing to the file" << endl;
    cout << "Enter your name: "; 
@@ -26,6 +26,7 @@ int main () {
 
    cout << "Enter your age: "; 
    cin >> data;
+
    // ignore or clear one or more characters from the input buffer
    cin.ignore();
    
@@ -37,7 +38,7 @@ int main () {
 
    // open a file in read mode.
    ifstream infile; 
-   infile.open("afile.dat"); 
+   infile.open("createfile.txt"); 
  
    cout << "Reading from the file" << endl; 
    infile >> data; 

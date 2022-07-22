@@ -28,8 +28,8 @@ int main()
 
 {
 
-cout<<sum(2,5,4);
-cout<<sum(2,6);
+cout<<sum(2,5,4)<<endl;
+cout<<sum()<<endl;
 
 return 0;
 

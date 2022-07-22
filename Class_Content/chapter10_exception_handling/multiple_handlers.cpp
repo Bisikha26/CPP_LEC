@@ -16,14 +16,16 @@ class Stack {
 
         void push(int x) {
             if(top==MAX-1){
+                // nameless object of type class FULL{}
                 throw FULL();
             } else {
                 s[++top] = x;
             }
-        }
+        } 
 
         int pop() {
             if(top == -1) {
+                // nameless object of type class EMPTY()
                 throw EMPTY();
             } else {
                 return s[top--];
@@ -34,7 +36,7 @@ class Stack {
 int main() {
     Stack s;
     try {
-        s.push(11);
+        // s.push(11);
         s.push(22);
         s.push(33);
 

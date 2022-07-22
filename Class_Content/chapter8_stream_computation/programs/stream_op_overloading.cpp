@@ -1,4 +1,4 @@
-// when to use ? - cout << (user defined data type) or cin >> (user defined type)
+ // when to use ? - cout << (user defined data type) or cin >> (user defined type)
 // This can't be class member function thus, must be a friend function
 
 /*
@@ -58,6 +58,7 @@ int main() {
     // operator <<(cout, s)
     // cout<<obj.s
     cout << s;
+    
 
     // operator >> (cin , s)
     // cin>>obj.s

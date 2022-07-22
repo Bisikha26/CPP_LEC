@@ -4,7 +4,7 @@ using namespace std;
 class Base {
     public:
         Base() {
-            cout<<"This is abstract class constructor";
+            cout<<"This is abstract class constructor"<<endl;
         }
         virtual void show() = 0; //pure virtual function
         void show_again() {
@@ -15,7 +15,7 @@ class Base {
 class Derived: public Base {
     public:
         Derived() {
-            cout<<"This is derived class constructor";
+            cout<<"This is derived class constructor"<<endl;
         }
         void show() {
             cout<<"This is derived class show function";
@@ -31,6 +31,7 @@ int main() {
 //    Base *bptr;
    Derived d;
 //    bptr ->show_again();
+//    d.show();
    return 0;
 }
 

@@ -16,7 +16,7 @@ void IOS_width() {
     cout<<c<<"\n";
 
     int temp = 10;
-    cout.width(10);
+    cout.width(11);
     cout<<temp;
     cout<<"\n------------------------\n";
 }

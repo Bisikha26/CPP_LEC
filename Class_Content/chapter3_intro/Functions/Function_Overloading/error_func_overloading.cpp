@@ -7,9 +7,9 @@ void print (int i) {
     cout<<"Here is the integer call: "<<i<<endl;
 }
 
-// void print (int f) {
-//     cout<<"Here is the integer second call: "<<f<<endl;
-// }
+void print (int f) {
+    cout<<"Here is the integer second call: "<<f<<endl;
+}
 
 int main() {
     print(10);

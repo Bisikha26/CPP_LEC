@@ -29,7 +29,8 @@ int main()
      
     // trying to access private data member
     // directly outside the class
-    //obj.radius = 1.5;
+    
+    obj.radius = 1.5;
      
     cout << "Area is:" << obj.compute_area();
     return 0;

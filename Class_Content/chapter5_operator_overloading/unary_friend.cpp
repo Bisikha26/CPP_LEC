@@ -11,14 +11,18 @@ class UnaryFriend {
             cout<<a<<b<<c<<endl;
         }
 
-    void friend operator -(UnaryFriend u1);
+    void friend operator -(UnaryFriend &u1);
 };
 
-void operator -(UnaryFriend u1) {
-    u1.a = -u1.a;
-    u1.b = -u1.b;
-    u1.c = -u1.c;
+void operator -(UnaryFriend &u1) {
+    u1.a = -(u1.a);
+    u1.b = -(u1.b);
+    u1.c = -(u1.c);
+
 }
+
+// pass by reference because overloaded function is outside class and show() is inside the class scope so the changes should be reflected globally
+// to reflect the changes globally, we use pass by reference
 
 int main() {
     UnaryFriend f1;

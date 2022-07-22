@@ -16,15 +16,20 @@ class myclass1 {
 };
 
 class myclass2{
+
     public:
-        void showData(myclass1 obj) {
-            cout<<"The value of x is: "<<obj.x;
-        }
+    myclass2(myclass1 obj) {
+        cout<<"The value of x is: "<<obj.x;
+    }
+    // public:
+    //     void showData(myclass1 obj) {
+    //         cout<<"The value of x is: "<<obj.x;
+    //     }
 };
 
 int main() {
     myclass1 obj1(5);
-    myclass2 obj2;
-    obj2.showData(obj1);
+    myclass2 obj2(obj1);
+    // obj2.showData(obj1);
 }
 

@@ -25,7 +25,7 @@ class derived: public base {
 int main()
 {
   derived *dptr;
-  d = new derived();
+  dptr = new derived();
 
 
   derived *d = new derived();  

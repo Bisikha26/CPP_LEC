@@ -25,6 +25,7 @@ class Rectangle : public Shape {
 
         int area() {
             cout<<"Rectangle class area: "<<(width * height)<<endl;
+            return 0;
         }
 };
 
@@ -36,14 +37,19 @@ class Triangle : public Shape {
         }
         int area() {
             cout<<"Triangle class area"<<(width * height / 2)<<endl;
+            return 0;
         }
 };
 
 // Main function for the program
 int main() {
     Shape *shape;
+    Shape sh(1,2);
     Rectangle rec(10, 7);
     Triangle tri(10,5);
+
+    shape = &sh;
+    shape -> area();
 
     // store the address of rectangle
     shape = &rec;
@@ -59,3 +65,6 @@ int main() {
 
     return 0;
 }
+
+//not type of pointer
+// but address of object held by pointer

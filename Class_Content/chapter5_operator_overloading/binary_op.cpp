@@ -40,8 +40,8 @@ class binary {
 };
 
 void binary::display() {
-    cout<<"Value of a: "<<a;
-    cout<<"Value of b: "<<b;
+    cout<<"Value of a: "<<a<<endl;
+    cout<<"Value of b: "<<b<<endl;
 }
 
 int main() {

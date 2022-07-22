@@ -22,7 +22,8 @@ class Derived : public Base {
 };
 
 int main() {
-    Derived d;
-    d.fun();
+    // Base b;
+    // Derived d;
+    // d.fun();
     return 0;
 }

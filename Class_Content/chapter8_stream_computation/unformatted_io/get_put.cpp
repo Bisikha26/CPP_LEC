@@ -16,12 +16,10 @@ int main() {
 
     // get the data
     cin.get(data);
+    
     while(data != '\n') {
         // print the data
         cout.put(data);
-
-        // get the data again
-        cin.get(data);
     }
     return 0;
 }
